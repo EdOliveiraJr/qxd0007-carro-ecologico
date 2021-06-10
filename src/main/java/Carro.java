@@ -70,6 +70,7 @@ public class Carro {
             quilometragem += distancia;
             combustivel -= distancia;
             System.out.println("Você percorreu " + distancia + " km!!");
+            System.out.println("Você têm "+ combustivel + " litros de combustível!");
             System.out.println("O combustível acabou!");
             return true;
         }else{
