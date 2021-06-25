@@ -11,37 +11,28 @@ public class Carro {
 
     public int getPassageiros() {
         return passageiros;
-<<<<<<< HEAD
     }
 
     public String mostraPassageiros(){
         return "O carro têm" + getPassageiros() + "passageiros!";
-=======
->>>>>>> 58f391f7297d013d3210862687c381305626ae42
     }
 
     public int getCombustivel() {
         return combustivel;
-<<<<<<< HEAD
     }
 
     public String mostraCombustivel(){
         return "O carro têm" + getCombustivel() +"litros de conbustível!";
-=======
->>>>>>> 58f391f7297d013d3210862687c381305626ae42
     }
 
     public int getQuilometragem() {
         return quilometragem;
     }
 
-<<<<<<< HEAD
     public String mostraQuilometragem(){
         return "O carro percorreu" + getQuilometragem() +"Km no total!";
     }
 
-=======
->>>>>>> 58f391f7297d013d3210862687c381305626ae42
     public int getMaxPassageiros(){
         return maxPassageiros;
     }
@@ -93,11 +84,7 @@ public class Carro {
             System.out.println("Você percorreu " + distancia + " km!!");
             System.out.println("Você têm "+ combustivel + " litros de combustível!");
             System.out.println("O combustível acabou!");
-<<<<<<< HEAD
             return false;
-=======
-            return true;
->>>>>>> 58f391f7297d013d3210862687c381305626ae42
         }else{
             quilometragem += distancia;
             combustivel -= distancia;
@@ -117,7 +104,6 @@ public class Carro {
             System.out.println("O tanque foi abastecido ao máximo!");
             System.out.println("Você têm " + combustivel + " litros de combustivel!");
             return true;
-<<<<<<< HEAD
         }else {
             if(combustivel + quantidade >= maxCombustivel){
                 combustivel = maxCombustivel;
@@ -127,12 +113,6 @@ public class Carro {
             System.out.println("Você têm " + combustivel + " litros de combustivel!");
             }
             
-=======
-        }else{
-            combustivel += quantidade;
-            System.out.println("O tanque foi abastecido em " + quantidade + " litros!");
-            System.out.println("Você têm " + combustivel + " litros de combustivel!");
->>>>>>> 58f391f7297d013d3210862687c381305626ae42
         }
         return true;
     }
